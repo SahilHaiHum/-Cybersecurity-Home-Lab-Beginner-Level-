@@ -20,3 +20,34 @@ To visualize how a port scan looks from both the attacker and defender’s point
 3. From Kali, ran the following scan:
    ```bash
    nmap -sS -T4 -v 192.168.X.X
+   ```
+4. Saved the `.pcapng` file and took screenshots of scan results and packet logs.
+
+## 📁 Folder Structure
+
+```
+nmap-wireshark-lab/
+├── README.md
+├── setup.md
+├── notes/
+│   └── observations.md
+├── screenshots/
+│   ├── nmap-scan-kali.png
+│   └── wireshark-capture-ubuntu.png
+├── pcap-files/
+│   └── nmap-attack.pcapng
+```
+
+## 📌 Key Learnings
+
+- Visualized TCP SYN scan patterns in Wireshark.
+- Identified how reconnaissance appears to a defender.
+- Understood the basic attacker-victim model in a local lab.
+
+## 🧠 Tools Used
+
+- Nmap
+- Wireshark
+- VirtualBox
+- Ubuntu Linux
+- Kali Linux
